@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom'
+import Navbar from './components/layout/Navbar'
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <header className="App-header">
-          <h1>Marioplang</h1>
-          <p>welcome to my first react projects.</p>
+          <Navbar />
         </header>
       </div>
     </BrowserRouter>
